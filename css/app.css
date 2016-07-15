@@ -44,15 +44,16 @@
 }
 #pic {
     background-image: url(../img/bob-marley-quotes-fb-cover.jpg);
-    width: 1280px;
     height: 300px;
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 250px;
     position: absolute;
     animation: shake;
     animation-delay: 4s;
     animation-duration: 7s;
     animation-iteration-count: 100;
+    background-repeat: no-repeat;
+    width: 850px;
 }
 #spin {
     background-color: orange;
