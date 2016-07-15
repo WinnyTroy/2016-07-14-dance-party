@@ -1,26 +1,16 @@
-/*
-body {
-   
-    opacity: 0.5;
-}
-*/
-
-.video {
-    opacity: 0.5;
-}
 #dancers {
     display: inline-block;
     padding-left: 30px;
     margin-top: 550px;
-    z-index: 2;
 }
 #Mitch {
     background-color: crimson;
     border-radius: 80%;
     text-align: center;
+    height: 25px;
     animation-name: shake;
-    animation-delay: 1s;
-    animation-duration: 5s;
+    animation-delay: 4s;
+    animation-duration: 7s;
     animation-iteration-count: 100;
 }
 #David {
@@ -28,8 +18,8 @@ body {
     border-radius: 80%;
     text-align: center;
     animation-name: shake;
-    animation-delay: 1s;
-    animation-duration: 5s;
+    animation-delay: 4s;
+    animation-duration: 7s;
     animation-iteration-count: 100;
 }
 #Martin {
@@ -38,8 +28,8 @@ body {
     text-align: center;
     color: floralwhite;
     animation-name: shake;
-    animation-delay: 1s;
-    animation-duration: 5s;
+    animation-delay: 4s;
+    animation-duration: 7s;
     animation-iteration-count: 100;
 }
 #Troy {
@@ -48,21 +38,28 @@ body {
     text-align: center;
     color: floralwhite;
     animation-name: shake;
-    animation-delay: 1s;
-    animation-duration: 5s;
+    animation-delay: 4s;
+    animation-duration: 7s;
     animation-iteration-count: 100;
 }
-#pic img {
-    width: 1320px;
-    margin-top: 10px;
+#pic {
+    background-image: url(../img/bob-marley-quotes-fb-cover.jpg);
+    width: 1280px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
     position: absolute;
-    opacity: 0.6;
-    animation: swing;
+    animation: shake;
     animation-delay: 4s;
-    animation-duration: 10s;
+    animation-duration: 7s;
+    animation-iteration-count: 100;
 }
 #spin {
-    background-color: forestgreen;
+    background-color: orange;
+    color: floralwhite;
     border-radius: 100%;
     text-align: center;
+    animation: swing;
+    animation-duration: 7s;
+    animation-duration: 100s;
 }
